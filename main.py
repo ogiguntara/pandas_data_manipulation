@@ -38,3 +38,8 @@ if __name__ == "__main__":
     # df_homelessness = df_homelessness[subset_condition]
     # print(df_homelessness.head())
     
+    #adding new column with arithmetical process
+    # df_homelessness['total'] = df_homelessness['individuals']+df_homelessness['family_members']
+    # print(df_homelessness.head())
+    # df_homelessness['p_individuals'] = df_homelessness['total']/df_homelessness['individuals']
+    # print(df_homelessness.head())
