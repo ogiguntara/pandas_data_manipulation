@@ -1,9 +1,8 @@
 #!python3
 
-from defusedxml import DTDForbidden
 import pandas as pd
 
-if __name__ == "__main__":
+def main():
     df_homelessness = pd.read_csv("./data/homelessness.csv")
     
     # #inspecting values
